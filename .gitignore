@@ -18,7 +18,7 @@ bin/*
 *.jar
 *.war
 *.ear
-/settings/*
+.settings/*
 
 
 [branch "gh-pages"]
