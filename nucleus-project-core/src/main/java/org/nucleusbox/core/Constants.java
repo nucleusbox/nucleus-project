@@ -48,7 +48,7 @@ public class Constants {
 	private final String className;
 
 	/** Map from String field name to object value */
-	private final Map<String, Object> fieldCache = new HashMap<>();
+	private final Map<String, Object> fieldCache = new HashMap<String, Object>();
 
 
 	/**
@@ -158,7 +158,7 @@ public class Constants {
 	 */
 	public Set<String> getNames(String namePrefix) {
 		String prefixToUse = (namePrefix != null ? namePrefix.trim().toUpperCase(Locale.ENGLISH) : "");
-		Set<String> names = new HashSet<>();
+		Set<String> names = new HashSet<String>();
 		for (String code : this.fieldCache.keySet()) {
 			if (code.startsWith(prefixToUse)) {
 				names.add(code);
@@ -190,7 +190,7 @@ public class Constants {
 	 */
 	public Set<String> getNamesForSuffix(String nameSuffix) {
 		String suffixToUse = (nameSuffix != null ? nameSuffix.trim().toUpperCase(Locale.ENGLISH) : "");
-		Set<String> names = new HashSet<>();
+		Set<String> names = new HashSet<String>();
 		for (String code : this.fieldCache.keySet()) {
 			if (code.endsWith(suffixToUse)) {
 				names.add(code);
@@ -212,7 +212,7 @@ public class Constants {
 	 */
 	public Set<Object> getValues(String namePrefix) {
 		String prefixToUse = (namePrefix != null ? namePrefix.trim().toUpperCase(Locale.ENGLISH) : "");
-		Set<Object> values = new HashSet<>();
+		Set<Object> values = new HashSet<Object>();
 		for (String code : this.fieldCache.keySet()) {
 			if (code.startsWith(prefixToUse)) {
 				values.add(this.fieldCache.get(code));
@@ -244,7 +244,7 @@ public class Constants {
 	 */
 	public Set<Object> getValuesForSuffix(String nameSuffix) {
 		String suffixToUse = (nameSuffix != null ? nameSuffix.trim().toUpperCase(Locale.ENGLISH) : "");
-		Set<Object> values = new HashSet<>();
+		Set<Object> values = new HashSet<Object>();
 		for (String code : this.fieldCache.keySet()) {
 			if (code.endsWith(suffixToUse)) {
 				values.add(this.fieldCache.get(code));
