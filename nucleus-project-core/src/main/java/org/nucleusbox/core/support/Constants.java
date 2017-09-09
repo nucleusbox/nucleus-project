@@ -69,7 +69,7 @@ public class Constants {
 					this.fieldCache.put(name, value);
 				}
 				catch (IllegalAccessException ex) {
-					// just leave this field and continue
+					//TODO
 				}
 			}
 		}
