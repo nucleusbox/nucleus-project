@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nucleusbox.core;
+package org.nucleusbox.core.support;
 
 import java.lang.reflect.Field;
 import java.util.HashMap;
