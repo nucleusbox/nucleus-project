@@ -10,5 +10,13 @@
     
   <modules>
     <module>nucleus-project-core</module>
+    <module>nucleus-data-mongodb</module>
+    <module>nucleus-data-redis</module>
+    <module>nucleus-data-elasticsearch</module>
+    <module>nucleus-data-neo4J</module>
+    <module>nucleus-data-rest</module>
+    <module>nucleus-data-ldap</module>
+    <module>nucleus-data-solr</module>
+    <module>nucleus-data-lucene</module>
   </modules>
 </project>
