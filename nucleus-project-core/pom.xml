@@ -3,14 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.nucleusbox</groupId>
+    <groupId>org.nucleusbox.data</groupId>
     <artifactId>nucleus-main</artifactId>
     <version>0.0.1</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
   
   <artifactId>nucleus-project-core</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>nucleus-project-core</name>
   <packaging>jar</packaging>
   <url>http://maven.apache.org</url>
@@ -42,4 +41,5 @@
     </plugins>
   </pluginManagement>
 </build>
+  <groupId>org.nucleusbox.data.core</groupId>
 </project>

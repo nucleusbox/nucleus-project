@@ -1,1 +1,28 @@
+*.class
+.idea
+.gradle
+.DS_Store
+.project
+.classpath
+.mvn
+build/*
+*.iml
+log/*
+tmp/*
+target/*
+bin/*
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+.settings
+.settings/*
+*/.settings/
+.settings/*
+
+[branch "gh-pages"]
+excludesfile = +info/exclude_from_gh_pages
 /target/
